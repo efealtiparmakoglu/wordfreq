@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "wordfreq"
+version = "1.0.0"
+description = "Word frequency and n-gram analyzer with stopword lists for English and Turkish"
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.9"
+
+[project.scripts]
+wordfreq = "wordfreq:main"
